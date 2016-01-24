@@ -1,0 +1,86 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2016/01/18, 1:32:04
+    Author     : shunshun
+*/
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+p, h1, h2, h3, h4 {
+    padding: 0;
+    margin: 0;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+a:hover {
+    color: #ccc;
+    text-decoration: underline;
+}
+ul {
+        list-style: none;
+    padding: 0;
+    margin: 0;
+}
+header {
+    height: 80px;
+    line-height: 80px;
+        border-bottom: 1px solid #565656;
+}
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+header .container h1 {
+    display: inline-block;
+}
+.auth-list {
+    float: right;
+}
+.auth-list li {
+    display: inline-block;
+}
+#contents {
+    border-left: 1px solid #565656;
+    border-right: 1px solid #565656;
+    border-bottom: 1px solid #565656;
+    padding: 20px;
+}
+.blog-block {
+  padding: 10px 20px;   
+  margin-bottom: 20px;
+  border: 1px solid #eee;
+}
+.new-create {
+    margin: 10px;
+}
+.blog-list {
+    padding: 20px;
+  border: 1px solid #eee;
+  margin-top: 20px;
+  width: 760px;
+}
+.blog-block .title {
+    
+}
+.blog-block .contents {
+    color: #888;
+    padding: 10px 30px;
+}
+.blog-block .contents ul {
+}
+.blog-block ul li {
+     display: inline-block;
+    margin-right: 20px;
+}
